@@ -1,0 +1,76 @@
+/* Set a default font and remove margin/padding from body element */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color:darkgre;
+  }
+  
+ /* Center the header and set a background color */
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: cadetblue;
+    color: #fff;
+  }
+  
+  /* Style the headline */
+  header h1 {
+    font-size: 28px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  /* Center the text area and button horizontally */
+  #myTextarea, #myButton {
+    display: block;
+    margin: 0 auto;
+  }
+  
+  /* Add some padding to the text area and button */
+  #myTextarea, #myButton {
+    padding: 10px;
+  }
+  
+  /* Style the button to make it stand out */
+  #myButton {
+    background-color: cadetblue;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  
+  #myButton:hover {
+    background-color: darkslategray;
+  }
+  
+  /* Style the text area to make it stand out */
+  #myTextarea {
+    border: 2px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+    width: 80%;
+    height: 200px;
+    resize: none;
+    font-size: 16px;
+    padding: 10px;
+  }
+  
+
+  #myTextarea {
+    line-height: 1.5;
+  }
+  
+
+  #myTextarea {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
